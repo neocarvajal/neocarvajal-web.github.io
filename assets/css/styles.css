@@ -353,7 +353,7 @@ a:focus {
 
 .hero-section .figure-holder .figure-image {
   position: absolute;
-  bottom: 0;
+  bottom: 10em;
   right: 15px;
   z-index: 10;
 }
@@ -369,7 +369,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/hero-1.jpg");
+  background-image: url("../images/hero-equipo.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -377,7 +377,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url("../images/hero-2.jpg");
+  background-image: url("../images/hero-code.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -385,7 +385,7 @@ a:focus {
 }
 
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url("../images/hero-3.jpg");
+  background-image: url("../images/hero-community_1.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -982,10 +982,10 @@ a:focus {
   }
   .hero-section .figure-holder .figure-image {
     width: inherit;
-    bottom: 0;
-    top: inherit;
+    bottom:-60px;
+    top:inherit; 
     right: inherit;
-    left: 15px;
+    right: -60px;
     max-width: 320px;
   }
   .technologies li {
@@ -1027,7 +1027,8 @@ a:focus {
   .hero-section .figure-holder .figure-image {
     width: 360px;
     bottom: inherit;
-    top: 130px;
+    top: 340px;
+    right: -40px;
   }
   .hero-carousel .carousel-inner .item-content-inner {
     max-width: 300px;
@@ -1046,7 +1047,7 @@ a:focus {
   .hero-section .figure-holder .figure-image {
     width: 420px;
     bottom: inherit;
-    top: 130px;
+    top: 300px;
   }
   .hero-carousel .carousel-inner .item-content-inner {
     max-width: 500px;
@@ -1055,8 +1056,8 @@ a:focus {
 
 @media (min-width: 1200px) {
   .hero-section .figure-holder .figure-image {
-    width: 570px;
-    bottom: 0;
-    top: inherit;
+    width: 570px;   
+
+    top: 14em;
   }
 }
