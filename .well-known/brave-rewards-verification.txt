@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: neocarvajal.github.io
+Token: 8ce035246e1ab46b3d1b0dc545f0960a0360c2eaa092097c81aabb9b6b895538
